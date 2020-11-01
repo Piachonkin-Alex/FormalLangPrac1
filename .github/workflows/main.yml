@@ -1,0 +1,10 @@
+name: Test CI
+
+on: [push, pull_request]
+
+jobs:
+  do_test:
+    name: tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@dev
