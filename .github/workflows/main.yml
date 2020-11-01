@@ -13,7 +13,13 @@ jobs:
         with:
           python_version: 3.8.0
           poetry_version: 1.1.0
-          args: install && run task test
+          args: install
+      - name: Run
+        uses: abatilo/actions-poetry@v1.5.0
+        with:
+          python_version: 3.8.0
+          poetry_version: 1.1.0
+          args: run task test
       - name: Uploading coverage
         uses: codecov/codecov-action@v1.0.5
         with:
