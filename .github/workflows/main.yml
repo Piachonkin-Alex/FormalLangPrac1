@@ -14,7 +14,7 @@ jobs:
           python_version: 3.8.0
           poetry_version: 1.1.0
           args: install
-      - name: Run
+      - name: Run Tests
         uses: abatilo/actions-poetry@v1.5.0
         with:
           python_version: 3.8.0
