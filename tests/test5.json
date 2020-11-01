@@ -1,0 +1,5 @@
+{
+"expr": "ab.ba.+*a.",
+"word": "babbaab",
+"result": 0
+}

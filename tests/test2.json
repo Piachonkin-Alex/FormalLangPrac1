@@ -1,0 +1,5 @@
+{
+"expr": "acb..bab.c.*.ab.ba.+.+*a.",
+"word": "cbaa",
+"result": 4
+}

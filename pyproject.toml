@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "DFAMinimizer"
+description = ""
+version = "0.1.0"
+authors = ["Aleksandr Alekseev <https://github.com/aalekseevx>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pytest = "^6.1.1"
+coverage = "^5.3"
+
+[tool.poetry.dev-dependencies]
+taskipy = "^1.3.0"
+
+[tool.taskipy.tasks]
+main = "python3 app/main.py"
+test = "python3 -m coverage run -m pytest tests/test.py && coverage xml -o cobertura.xml"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

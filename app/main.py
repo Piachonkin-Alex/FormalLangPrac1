@@ -176,8 +176,16 @@ def max_possible_suffix(word: str, automation: FiniteAutomation) -> int:
             states_from_previous_suffix = states_for_this_suffix
     return result
 
-a = "acb..bab.c.*.ab.ba.+.+*a"
 
-b = remove_empty_transmissions(automation_from_expression(a))
+def max_possible_suffix_of_expr(expression: str, word: str):
+    one_letter_automation = remove_empty_transmissions(automation_from_expression(expression))
+    return max_possible_suffix(word, one_letter_automation)
 
-print(max_possible_suffix("cbaa", b))
+
+if __name__ == '__main__':
+    expr1 = 'ab+c.aba.*.bac.+.+*'
+    expr2 = 'acb..bab.c.*.ab.ba.+.+*a.'
+    word1 = 'babc'
+    word2 = 'cbaa'
+    assert (max_possible_suffix_of_expr(expr1, word1) == 2)
+    assert (max_possible_suffix_of_expr(expr2, word2) == 4)

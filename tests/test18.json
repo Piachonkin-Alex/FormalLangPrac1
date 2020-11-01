@@ -1,0 +1,5 @@
+{
+"expr": "ab1+.ba.*.",
+"word": "abbaba",
+"result": 6
+}
