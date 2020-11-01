@@ -7,7 +7,7 @@ jobs:
     name: tests
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@dev
+      - uses: actions/checkout@master
       - name: Install
         uses: abatilo/actions-poetry@v1.5.0
         with:
