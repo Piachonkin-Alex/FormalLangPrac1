@@ -2,7 +2,7 @@
 name = "DFAMinimizer"
 description = ""
 version = "0.1.0"
-authors = ["Aleksandr Alekseev <https://github.com/aalekseevx>"]
+authors = ["Piachonkin Alex <https://github.com/Piachonkin-Alex"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
