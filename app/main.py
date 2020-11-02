@@ -179,9 +179,6 @@ def max_possible_suffix_of_expr(expression: str, word: str):
 
 
 if __name__ == '__main__':
-    expr1 = 'ab+c.aba.*.bac.+.+*'
-    expr2 = 'acb..bab.c.*.ab.ba.+.+*a.'
-    word1 = 'babc'
-    word2 = 'cbaa'
-    print(max_possible_suffix_of_expr(expr1, word1))
-    print(max_possible_suffix_of_expr(expr2, word2))
+    expr = input()
+    word = input()
+    print(max_possible_suffix_of_expr(expr,word))
