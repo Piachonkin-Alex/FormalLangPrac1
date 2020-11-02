@@ -1,13 +1,6 @@
 # Практикум №1
 [![codecov](https://codecov.io/gh/Piachonkin-Alex/FormalLangPrac1/branch/main/graph/badge.svg?token=6L5DPCEEHB)](https://codecov.io/gh/Piachonkin-Alex/FormalLangPrac1)
 
-      <a href="https://codecov.io/gh/Piachonkin-Alex/FormalLangPrac1">
-        <img src="https://codecov.io/gh/Piachonkin-Alex/FormalLangPrac1/branch/main/graph/badge.svg?token=6L5DPCEEHB"/>
-      </a>
-    
-      .. image:: https://codecov.io/gh/Piachonkin-Alex/FormalLangPrac1/branch/main/graph/badge.svg?token=6L5DPCEEHB
-      :target: https://codecov.io/gh/Piachonkin-Alex/FormalLangPrac1
-    
 ## Постановка задачи
 Дано регулярное выражение α и слово u ∈ {a, b, c}*. Найти длину самого длинного суффикса u, являющегося также суффиксом некоторого слова в L(α).
 
