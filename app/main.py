@@ -183,5 +183,5 @@ if __name__ == '__main__':
     expr2 = 'acb..bab.c.*.ab.ba.+.+*a.'
     word1 = 'babc'
     word2 = 'cbaa'
-    assert (max_possible_suffix_of_expr(expr1, word1) == 2)
-    assert (max_possible_suffix_of_expr(expr2, word2) == 4)
+    print(max_possible_suffix_of_expr(expr1, word1))
+    print(max_possible_suffix_of_expr(expr2, word2))

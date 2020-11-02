@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "DFAMinimizer"
+name = "Practicum1"
 description = ""
 version = "0.1.0"
 authors = ["Piachonkin Alex <https://github.com/Piachonkin-Alex"]
