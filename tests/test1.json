@@ -1,0 +1,5 @@
+{
+"expr": "ab+c.aba.*.bac.+.+*",
+"word": "babc",
+"result": 2
+}

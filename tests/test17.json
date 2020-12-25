@@ -1,0 +1,5 @@
+{
+"expr": "c*a*.b*.",
+"word": "abc",
+"result": 1
+}

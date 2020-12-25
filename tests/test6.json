@@ -1,0 +1,5 @@
+{
+"expr": "aab+c+*.b.",
+"word": "abbbccaab",
+"result": 9
+}
